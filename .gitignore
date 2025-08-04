@@ -1,2 +1,3 @@
 Terraform Visual.pdf
-/
+.terraform
+*.hcl
