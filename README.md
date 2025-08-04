@@ -21,14 +21,20 @@ CI/CD: GitHub Actions pipeline for testing and deployment
 ### Prerequisites:
 - AWS CLI configured with IAM credentials
 - Terraform installed
+   ```bash
+   terraform plan -help
+   ```
+
 - Zip your lambda handler: `lambda_function_payload.zip`
 
 ### Step-by-Step:
 ```bash
-# Clone repo & navigate to root directory
-cd terraform-etla-pipeline
+# clone this repo
 
-# Initialize
+# change directory
+cd nycbus-takehome
+
+# initialize
 terraform init
 
 # Review plan
