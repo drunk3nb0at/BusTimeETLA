@@ -13,6 +13,7 @@ Client ──(POST /bus-event)─> API Gateway ──> Lambda (main.handler)
 Authorization: Cognito JWT Authorizer
 CI/CD: GitHub Actions pipeline for testing and deployment
 ```
+![](ETLA_Pipeline_Architecture.png)
 
 ---
 
