@@ -30,6 +30,7 @@ CI/CD: GitHub Actions pipeline for testing and deployment
 
 ### Step-by-Step:
 ```bash
+gh repo clone drunk3nb0at/BusTimeETLA
 
 cd nycbus-takehome
 
@@ -43,11 +44,11 @@ terraform apply
 ### File Overview:
 ```
 .
-├── main.py                       # Lambda function source code
-├── lambda_function_payload.zip   # Zipped Lambda for deployment
+├── main.py                       # Lambda function
+├── lambda_function_payload.zip   # Zipped Lambda, for deployment
 ├── main.tf                       # Terraform infrastructure
 ├── README.md                     # here!
-└── .github/workflows/ci.yml      # GitHub Actions CI/CD pipeline
+└── .github/workflows/ci.yml      # CI/CD pipeline
 ```
 
 ### CI/CD Setup:
